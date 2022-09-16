@@ -1,9 +1,40 @@
+/* //Styling body */
 body {
-  
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+/* Styling game board */
+.game_grid {
+  width: 800px;
+  height: 800px;
+  display: grid;
+  background-image: url(../imgs/board.png);
+  background-color: white;
+}
+
+/* Adding cursor */
+.game_grid:hover {
+  cursor: pointer;
+}
+
+.yellow_coin{
+background-size:70%;
+
+}
+
+.red_coin{
+background-size:70%;
+
+}
+
+
+.winner{
+  font-size: 48px;
+  border: none;
+  color: green;
 }
