@@ -23,13 +23,12 @@ body {
 }
 
 .yellow_coin{
-background-size:70%;
+background-image: url(../imgs/yellow.png);
 
 }
 
 .red_coin{
-background-size:70%;
-
+background-image: url(../imgs/red.png);
 }
 
 
